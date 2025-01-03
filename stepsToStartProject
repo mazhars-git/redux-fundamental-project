@@ -1,0 +1,5 @@
+01: npm create vite@latest
+02: follow next instructions
+03: npm install
+04: install redux toolkit: npm install @reduxjs/toolkit react-redux
+05: 
