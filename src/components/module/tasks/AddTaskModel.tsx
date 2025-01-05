@@ -89,7 +89,7 @@ export function AddTaskModel() {
 
             <FormField
               control={form.control}
-              name="due date"
+              name="dueDate"
               render={({ field }) => (
                 <FormItem className="flex flex-col">
                   <FormLabel>Due Date</FormLabel>
