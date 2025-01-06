@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from "../redux/features/counter/counterSlice";
 import taskReducer from "../redux/features/task/taskSlice";
+import userReducer from "../redux/features/user/userSlice";
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
     todo: taskReducer,
+    user: userReducer,
   },
 });
 
